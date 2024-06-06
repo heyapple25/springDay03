@@ -14,23 +14,29 @@ user 기능을 JDBCTemplate를 이용해서 추가하기
 ---
 
 ## 1. 과제 결과
-<img src=https://github.com/heyapple25/springDay03/assets/56960059/1d8dd2db-0764-47a4-871d-5140ec41c60f width=500 height=500>
-
+<picture>
+	<img src=https://github.com/heyapple25/springDay03/assets/56960059/1d8dd2db-0764-47a4-871d-5140ec41c60f width=500 height=500>
+</picture>
 ---
 
 ## 2. 발생했던 오류
 - 삭제 후 유저 목록에 빈 페이지가 발생한 오류
-<img src=https://github.com/heyapple25/springDay03/assets/56960059/db1007c2-fa6a-44b1-aafe-6c2b099ecdb4 width=350 height=200>
-
+<picture>
+	<img src=https://github.com/heyapple25/springDay03/assets/56960059/db1007c2-fa6a-44b1-aafe-6c2b099ecdb4 width=350 height=200>
+</picture>
 ${\color{green}해결}$ : 삭제 후 목록페이지로 redirect 하지 않아서 발생했던 문제였다.
 
 <br>
 
 - BeanInstantiationException
-<img src=https://github.com/heyapple25/springDay03/assets/56960059/70d13770-0ac3-4f79-96f1-57d86353979c width=1500 height=150>
+<picture>
+	<img src=https://github.com/heyapple25/springDay03/assets/56960059/70d13770-0ac3-4f79-96f1-57d86353979c width=1500 height=150>
+</picture>
 
 ${\color{green}해결}$ : 빈 객체 초기화 오류로
-![12412412](https://github.com/heyapple25/springDay03/assets/56960059/83f324f3-b0a2-40c6-be48-be779b7a60c5)
+<picture>
+	![12412412](https://github.com/heyapple25/springDay03/assets/56960059/83f324f3-b0a2-40c6-be48-be779b7a60c5)
+</picture>
 
 이 코드를 사용할 때 문제가 발생했다. BeanPropertyRowMapper클래스를 사용할 때 VO 클래스에 기본 생성자를 넣으면 해결된다.
 
