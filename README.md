@@ -24,6 +24,7 @@ user 기능을 JDBCTemplate를 이용해서 추가하기
 <picture>
 	<img src=https://github.com/heyapple25/springDay03/assets/56960059/db1007c2-fa6a-44b1-aafe-6c2b099ecdb4 width=350 height=200>
 </picture>
+
 ${\color{green}해결}$ : 삭제 후 목록페이지로 redirect 하지 않아서 발생했던 문제였다.
 
 <br>
